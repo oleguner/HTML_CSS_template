@@ -2,9 +2,11 @@
   "name": "HTML_CSS_template",
   "version": "1.0.0",
   "description": "Template for html/css/js",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build --out-dir dist --public-url ./ ./src/index.html",
+    "start": "parcel serve ./src/index.html --open"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/oleguner/HTML_CSS_template/issues"
   },
-  "homepage": "https://github.com/oleguner/HTML_CSS_template#readme"
+  "homepage": "https://github.com/oleguner/HTML_CSS_template#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {}
 }
