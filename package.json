@@ -1,0 +1,27 @@
+{
+  "name": "HTML_CSS_template",
+  "version": "1.0.0",
+  "description": "Template for html/css/js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleguner/HTML_CSS_template.git"
+  },
+  "keywords": [
+    "template",
+    "css",
+    "html",
+    "js",
+    "parsel",
+    "eslint"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleguner/HTML_CSS_template/issues"
+  },
+  "homepage": "https://github.com/oleguner/HTML_CSS_template#readme"
+}
